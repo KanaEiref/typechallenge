@@ -1,0 +1,303 @@
+/* ============================================================================================== */
+/* Reset Styles                                                                                   */
+/* ============================================================================================== */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+body {
+  font-size: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+img {
+  border: 0; }
+
+figure {
+  margin: 0; }
+
+/* ============================================================================================== */
+/* Base Typographic Styles                                                                        */
+/* ============================================================================================== */
+body {
+  font-family: sans-serif; }
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+cite {
+  font-style: normal; }
+
+small {
+  font-size: 80%; }
+
+a {
+  color: blue; }
+
+abbr {
+  font-size: 85%; }
+
+address {
+  display: inline; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  line-height: 1;
+  text-rendering: optimizelegibility; }
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 1.5em 1em; }
+
+li {
+  line-height: 1.5; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/*=================================*/
+/* 
+/*===================================*/
+@font-face {
+  font-family: Josefin-Slab-Regular;
+  src: url("../fonts/josefinslab-regular-webfont.eot");
+  src: url("../fonts/josefinslab-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/josefinslab-regular-webfont.woff") format("woff"), url("../fonts/josefinslab-regular-webfont.ttf") format("truetype"), url("../fonts/josefinslab-regular-webfont.svg#Josefin-Slab-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Josefin-Slab-Regular;
+    src: url("../fonts/josefinslab-regular-webfont.svg#Josefin-Slab-Regular") format("svg"); } }
+@font-face {
+  font-family: Josefin-Slab-Light;
+  src: url("../fonts/josefinslab-light-webfont.eot");
+  src: url("../fonts/josefinslab-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/josefinslab-light-webfont.woff") format("woff"), url("../fonts/josefinslab-light-webfont.ttf") format("truetype"), url("../fonts/josefinslab-light-webfont.svg#Josefin-Slab-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Josefin-Slab-Light;
+    src: url("../fonts/josefinslab-light-webfont.svg#Josefin-Slab-Light") format("svg"); } }
+@font-face {
+  font-family: Josefin-Slab-Light-Italic;
+  src: url("../fonts/josefinslab-lightitalic-webfont.eot");
+  src: url("../fonts/josefinslab-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/josefinslab-lightitalic-webfont.woff") format("woff"), url("../fonts/josefinslab-lightitalic-webfont.ttf") format("truetype"), url("../fonts/josefinslab-lightitalic-webfont.svg#Josefin-Slab-Light-Italic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Josefin-Slab-Light-Italic;
+    src: url("../fonts/josefinslab-lightitalic-webfont.svg#Josefin-Slab-Light-Italic") format("svg"); } }
+@font-face {
+  font-family: Josefin-Slab-Bold-Italic;
+  src: url("../fonts/josefinslab-bolditalic-webfont.eot");
+  src: url("../fonts/josefinslab-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/josefinslab-bolditalic-webfont.woff") format("woff"), url("../fonts/josefinslab-bolditalic-webfont.ttf") format("truetype"), url("../fonts/josefinslab-bolditalic-webfont.svg#Josefin-Slab-Bold-Italic") format("svg");
+  font-weight: 700;
+  font-style: italic; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Josefin-Slab-Bold-Italic;
+    src: url("../fonts/josefinslab-bolditalic-webfont.svg#Josefin-Slab-Bold-Italic") format("svg"); } }
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/lato-reg-webfont.eot");
+  src: url("../fonts/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-reg-webfont.woff") format("woff"), url("../fonts/lato-reg-webfont.ttf") format("truetype"), url("../fonts/lato-reg-webfont.svg#Lato-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/lato-reg-webfont.svg#Lato-Regular") format("svg"); } }
+@font-face {
+  font-family: Lato-Black;
+  src: url("../fonts/lato-bla-webfont.eot");
+  src: url("../fonts/lato-bla-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bla-webfont.woff") format("woff"), url("../fonts/lato-bla-webfont.ttf") format("truetype"), url("../fonts/lato-bla-webfont.svg#Lato-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Lato-Black;
+    src: url("../fonts/lato-bla-webfont.svg#Lato-Black") format("svg"); } }
+/* ============================================================================================== */
+/* Demo Styles - Do most, if not all, of your work here.                                          */
+/* ============================================================================================== */
+article header {
+  margin-bottom: 1.625em; }
+
+figure {
+  margin-bottom: 1.625em; }
+
+.pull-quote {
+  font-family: 'Josefin-Slab-Bold-Italic', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.618em;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+  color: #E01B5D;
+  text-align: left;
+  clear: both;
+  float: left;
+  width: 30%; }
+
+figure img {
+  max-width: 100%; }
+
+article footer p {
+  margin-bottom: 0.5em; }
+
+body {
+  font-size: 100%;
+  font-family: 'Lato-Regular', arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.625; }
+
+article {
+  margin: 1.25em auto;
+  width: 80%; }
+
+h1 {
+  font-family: 'Josefin-Slab-Regular', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.25em;
+  line-height: 1.625;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Lato-Regular', arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #999999;
+  line-height: 1.625; }
+
+h1, h2 {
+  text-align: center; }
+
+p {
+  font-family: 'Lato-Regular', arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.625;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+  color: #444444; }
+
+p.drop:first-letter {
+  color: #54A187;
+  font-size: 1.625em;
+  padding-right: 0.09em; }
+
+.top {
+  width: 100%;
+  background-color: #B8C5C6;
+  height: 2em; }
+
+.byline {
+  display: block;
+  text-align: center;
+  font-family: 'Josefin-Slab-Light-Italic', serif;
+  font-weight: 100;
+  font-style: italic; }
+
+address {
+  color: #E01B5D; }
+
+figure {
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: #54A187; }
+
+a:link {
+  color: #54A187; }
+
+a:hover {
+  color: #E01B5D; }
+
+footer {
+  text-align: center; }
+
+footer small {
+  text-align: center;
+  font-family: 'Josefin-Slab-Light-Italic', serif;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 0.618em;
+  font-size: 1em; }
+
+/* Helper Classes =============================================================================== */
+.clearfix {
+  *zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.hide {
+  display: none !important;
+  visibility: hidden; }
+
+.show {
+  display: block !important; }
+
+.visually-hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.invisible {
+  visibility: hidden; }
